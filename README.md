@@ -1,5 +1,99 @@
-# KMRM
-Knowledge Manufacturing Reference Model (KMRM) – defines how those concepts move through extraction, transformation, validation, assembly, packaging, and publishing.
+# Knowledge Manufacturing Reference Model (KMRM)
+
+KMRM is an implementation-independent reference model for transforming raw knowledge into traceable, validated, and reusable knowledge products.
+
+It defines the concepts, vocabulary, lifecycle, manufacturing stages, quality gates, and traceability rules that a conforming knowledge manufacturing system may implement.
+
+## Status
+
+- Version: v0.1 foundation draft
+- Repository type: reference model and specification
+- Implementation status: no runtime, no adapters, no AI orchestration in this repository
+
+## Mission
+
+See [MISSION.md](MISSION.md).
+
+## Architectural Position
+
+KMRM sits above any specific product, repository, AI model, or documentation system.
+
+```text
+KMRM
+  defines the reference model
+
+Document Factory
+  may implement the model
+
+Adapters
+  connect implementations to source systems
+
+Product repositories
+  supply raw knowledge and validation cases
+```
+
+Product repositories such as GIA are validation grounds, not the source of the reference model itself.
+
+## Repository Scope
+
+This repository SHALL contain:
+
+- reference model documents;
+- terminology and controlled vocabulary;
+- conceptual object models;
+- manufacturing model definitions;
+- provenance and traceability standards;
+- lifecycle definitions;
+- quality gate definitions; and
+- non-binding examples.
+
+This repository SHALL NOT contain:
+
+- product-specific adapters;
+- runtime code;
+- generated user manuals;
+- generated training guides;
+- AI agent prompts for one implementation;
+- product-specific documentation output; or
+- implementation-specific workflow automation.
+
+## Initial Structure
+
+```text
+KMRM/
+├── README.md
+├── MISSION.md
+├── LICENSE.md
+├── docs/
+│   ├── 00-Foundation/
+│   │   ├── VISION.md
+│   │   ├── PRINCIPLES.md
+│   │   ├── TERMINOLOGY.md
+│   │   └── CORE-CONCEPTS.md
+│   └── 01-Reference-Model/
+│       └── CONCEPT-MAP.md
+├── examples/
+└── reference/
+```
+
+## Normative Language
+
+KMRM specifications use the following keywords:
+
+- SHALL
+- SHALL NOT
+- SHOULD
+- SHOULD NOT
+- MAY
+- OPTIONAL
+
+These keywords distinguish binding requirements from recommendations and examples.
+
+## First Intended Implementation
+
+Document Factory is expected to become one implementation of KMRM. Its first validation target may be the GIA product repository, where the goal is to manufacture an online HTML User Manual and online HTML Training Guide from source-grounded knowledge.
+
+KMRM itself remains implementation-independent.
 
 ## License / Usage Rights
 
