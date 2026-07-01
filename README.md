@@ -84,9 +84,16 @@ KMRM/
 │   │   └── PUBLISHING.md
 │   ├── 03-Operating-Model/
 │   │   ├── OPERATING-MODEL.md
+│   │   ├── ORGANISATION-MODEL.md
 │   │   ├── WORKER-PROFILE.md
 │   │   ├── SKILL-MODEL.md
-│   │   └── PERMANENT-WORKERS.md
+│   │   ├── PERMANENT-WORKERS.md
+│   │   ├── WORKER-BOUNDARIES.md
+│   │   ├── WORKER-MEMORY.md
+│   │   ├── COMPANY-POLICIES.md
+│   │   ├── OPERATING-CADENCE.md
+│   │   ├── PERFORMANCE-REVIEW.md
+│   │   └── CONTRACTOR-WORKERS.md
 │   ├── 04-Recipes/
 │   │   ├── USER-MANUAL-RECIPE.md
 │   │   └── TRAINING-GUIDE-RECIPE.md
