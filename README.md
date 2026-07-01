@@ -6,7 +6,7 @@ It defines the concepts, vocabulary, lifecycle, manufacturing stages, quality ga
 
 ## Status
 
-- Version: v0.1 foundation, manufacturing, operating model, and initial recipes draft
+- Version: v0.1 foundation, manufacturing, operating model, initial recipes, and readiness draft
 - Repository type: reference model and specification
 - Implementation status: no runtime, no adapters, no AI orchestration in this repository
 
@@ -98,7 +98,10 @@ KMRM/
 │   │   ├── USER-MANUAL-RECIPE.md
 │   │   └── TRAINING-GUIDE-RECIPE.md
 │   └── 05-Readiness/
-│       └── GIA-READINESS.md
+│       ├── GIA-READINESS.md
+│       ├── GIA-SOURCE-BASELINE.md
+│       ├── GIA-MANUFACTURING-RUN.md
+│       └── GIA-HTML-OUTPUT-CONTRACT.md
 ├── examples/
 └── reference/
 ```
