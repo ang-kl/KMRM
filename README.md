@@ -2,11 +2,11 @@
 
 KMRM is an implementation-independent reference model for transforming raw knowledge into traceable, validated, and reusable knowledge products.
 
-It defines the concepts, vocabulary, lifecycle, manufacturing stages, quality gates, and traceability rules that a conforming knowledge manufacturing system may implement.
+It defines the concepts, vocabulary, lifecycle, manufacturing stages, quality gates, traceability rules, operating boundaries, and reusable product recipes that a conforming knowledge manufacturing system may implement.
 
 ## Status
 
-- Version: v0.1 foundation and manufacturing model draft
+- Version: v0.1 foundation, manufacturing, operating model, and initial recipes draft
 - Repository type: reference model and specification
 - Implementation status: no runtime, no adapters, no AI orchestration in this repository
 
@@ -42,10 +42,12 @@ This repository SHALL contain:
 - terminology and controlled vocabulary;
 - conceptual object models;
 - manufacturing model definitions;
+- operating model definitions;
+- reusable product recipes;
 - provenance and traceability standards;
 - lifecycle definitions;
 - quality gate definitions; and
-- non-binding examples.
+- non-binding readiness checklists or examples.
 
 This repository SHALL NOT contain:
 
@@ -72,14 +74,24 @@ KMRM/
 │   │   └── CORE-CONCEPTS.md
 │   ├── 01-Reference-Model/
 │   │   └── CONCEPT-MAP.md
-│   └── 02-Manufacturing/
-│       ├── MANUFACTURING-MODEL.md
-│       ├── PRODUCTION-CELL.md
-│       ├── PRODUCTION-PIPELINE.md
-│       ├── PRODUCTION-RECIPE.md
-│       ├── QUALITY-GATE.md
-│       ├── PACKAGING.md
-│       └── PUBLISHING.md
+│   ├── 02-Manufacturing/
+│   │   ├── MANUFACTURING-MODEL.md
+│   │   ├── PRODUCTION-CELL.md
+│   │   ├── PRODUCTION-PIPELINE.md
+│   │   ├── PRODUCTION-RECIPE.md
+│   │   ├── QUALITY-GATE.md
+│   │   ├── PACKAGING.md
+│   │   └── PUBLISHING.md
+│   ├── 03-Operating-Model/
+│   │   ├── OPERATING-MODEL.md
+│   │   ├── WORKER-PROFILE.md
+│   │   ├── SKILL-MODEL.md
+│   │   └── PERMANENT-WORKERS.md
+│   ├── 04-Recipes/
+│   │   ├── USER-MANUAL-RECIPE.md
+│   │   └── TRAINING-GUIDE-RECIPE.md
+│   └── 05-Readiness/
+│       └── GIA-READINESS.md
 ├── examples/
 └── reference/
 ```
