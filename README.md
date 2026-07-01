@@ -6,7 +6,7 @@ It defines the concepts, vocabulary, lifecycle, manufacturing stages, quality ga
 
 ## Status
 
-- Version: v0.1 foundation draft
+- Version: v0.1 foundation and manufacturing model draft
 - Repository type: reference model and specification
 - Implementation status: no runtime, no adapters, no AI orchestration in this repository
 
@@ -70,8 +70,16 @@ KMRM/
 │   │   ├── PRINCIPLES.md
 │   │   ├── TERMINOLOGY.md
 │   │   └── CORE-CONCEPTS.md
-│   └── 01-Reference-Model/
-│       └── CONCEPT-MAP.md
+│   ├── 01-Reference-Model/
+│   │   └── CONCEPT-MAP.md
+│   └── 02-Manufacturing/
+│       ├── MANUFACTURING-MODEL.md
+│       ├── PRODUCTION-CELL.md
+│       ├── PRODUCTION-PIPELINE.md
+│       ├── PRODUCTION-RECIPE.md
+│       ├── QUALITY-GATE.md
+│       ├── PACKAGING.md
+│       └── PUBLISHING.md
 ├── examples/
 └── reference/
 ```
